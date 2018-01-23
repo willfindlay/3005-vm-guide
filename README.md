@@ -82,7 +82,7 @@ cp ./.* ..<br/>
 </pre>
 
 **If you are not using termite, you are done.**<br/>
-***If you are using termite\:***<br/>
+***If you are using termite: ***<br/>
 
 <pre>
 cp termite.terminfo ..<br/>
