@@ -31,16 +31,16 @@ Now for the meat and potatoes. We're running ***Fedora Linux Server Edition***, 
 will be using the **yum** package manager here. Sounds delicious.
 
 To get started, we need to install git.<br/>
-<code>sudo yum install git</code> You will have to type your password here (oracle).
+<pre>sudo yum install git</pre> You will have to type your password here (oracle).
 
 Now that we have git installed, let's configure it. If you have read my COMP3000 guide,
 you'll know we need to do the following:
 
-<code>
+<pre>
 git config --global user.name "YOUR GITHUB USERNAME"<br/>
 git config --global user.email "YOUR GITHUB EMAIL"<br/>
 git config --global http.sslVerify false
-</code>
+</pre>
 
 With our git set up, we are almost ready to get going here. By now you may have noticed
 that the sqlplus program we use to access and modify our DB doesn't support the arrow
@@ -48,24 +48,24 @@ keys! How dumb is that? Let's fix it.
 
 To start, we are going to clone this repository into the root directory and cd into it:
 
-<code>
+<pre>
 git clone https://github.com/hanslub42/rlwrap<br/>
 cd rlwrap
-</code>
+</pre>
 
 Now we need to install some other packages before we are ready to get going.
 
-<code>
+<pre>
 sudo yum install make autoconf automake
-</code>
+</pre>
 
 **Let's build autoconf!**
 
-<code>
+<pre>
 autoreconf --install<br/>
 make<br/>
 make install
-</code>
+</pre>
 
 Now, just run sqlplus with rlwrap sqlplus and you will have your arrow keys.<br/>
 **BUT** if you are using ***my dotfiles*** you can just type sqlplus!
@@ -75,7 +75,7 @@ My Dotfiles
 
 Use my dotfiles! They are sick. Just do the following:
 
-<code>
+<pre>
 cd ~<br/>
 git clone https://github.com/HousedHorse/3005-vm-guide<br/>
 cd 3005-vm-guide<br/>
@@ -85,4 +85,4 @@ cp ./.\* ..<br/>
 cp termite.terminfo ..<br/>
 cd ~<br/>
 tic termite.terminfo
-</code>
+</pre>
