@@ -10,8 +10,17 @@ altogether! **Damn it, Mengchi.**
 
 To get this working, you need to do the following:
 
-<code>
-**VirtualBox** -> **Click on the 3005 VM** -> **Click Settings**
+**VirtualBox** -> **Click on the 3005 VM** -> **Click Settings**<br/>
+-> **Click Network** -> **Click Adpater 2** -> **Uncheck Enable Network Adapter**<br/>
+-> **Click Adapter 1** -> **Open the DropDown** -> **Select NAT**<br/>
+-> **Click Advanced** -> **Under ADAPTER TYPE Select PCnet-FAST III**<br/>
+-> **Click Port Forwarding** -> **Click the + Symbol**
 
--> **Click Network** -> **Click Adpater 2** -> **Uncheck Enable Network Adapter**
-</code>
+Once you have reached this step, simply make sure you have the following:
+
+**Name: guestssh
+Protocol: TCP
+Host Port: 3005 or some other high number
+Guest Port: 22**
+
+Now, you should be ready to start your VM. ***Hurray!***
