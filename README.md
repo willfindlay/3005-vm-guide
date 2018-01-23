@@ -18,9 +18,9 @@ To get this working, you need to do the following:
 
 Once you have reached this step, simply make sure you have the following:
 
-**Name: guestssh
-Protocol: TCP
-Host Port: 3005 or some other high number
+**Name: guestssh<br/>
+Protocol: TCP<br/>
+Host Port: 3005 or some other high number<br/>
 Guest Port: 22**
 
 Now, you should be ready to start your VM. ***Hurray!***
