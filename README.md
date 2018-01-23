@@ -72,7 +72,6 @@ Now, just run sqlplus with rlwrap sqlplus and you will have your arrow keys.<br/
 
 My Dotfiles
 -----------
-
 Use my dotfiles! They are sick. Just do the following:
 
 <pre>
@@ -80,8 +79,12 @@ cd ~<br/>
 git clone https://github.com/HousedHorse/3005-vm-guide<br/>
 cd 3005-vm-guide<br/>
 cp ./.* ..<br/>
+</pre>
+
 **If you are not using termite, you are done.**<br/>
 ***If you are using termite:***<br/>
+
+<pre>
 cp termite.terminfo ..<br/>
 cd ~<br/>
 tic termite.terminfo
