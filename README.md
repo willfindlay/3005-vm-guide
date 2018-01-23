@@ -79,7 +79,7 @@ Use my dotfiles! They are sick. Just do the following:
 cd ~<br/>
 git clone https://github.com/HousedHorse/3005-vm-guide<br/>
 cd 3005-vm-guide<br/>
-cp ./.\* ..<br/>
+cp ./.* ..<br/>
 **If you are not using termite, you are done.**<br/>
 ***If you are using termite:***<br/>
 cp termite.terminfo ..<br/>
