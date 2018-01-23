@@ -9,7 +9,9 @@ The prof's settings do not work properly. In fact, they prevent the VM from boot
 altogether! **Damn it, Mengchi.**
 
 To get this working, you need to do the following:
-<br/>
+
 <code>
-VirtualBox -> Click on the 3005 VM -> Click Settings
+**VirtualBox** -> **Click on the 3005 VM** -> **Click Settings**
+
+-> **Click Network** -> **Click Adpater 2** -> **Uncheck Enable Network Adapter**
 </code>
