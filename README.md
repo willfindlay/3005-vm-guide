@@ -31,7 +31,9 @@ Now for the meat and potatoes. We're running ***Fedora Linux Server Edition***, 
 will be using the **yum** package manager here. Sounds delicious.
 
 To get started, we need to install git.<br/>
-<pre>sudo yum install git</pre> You will have to type your password here (oracle).
+<pre>sudo yum install git</pre>
+
+You will have to type your password here (oracle).
 
 Now that we have git installed, let's configure it. If you have read my COMP3000 guide,
 you'll know we need to do the following:
