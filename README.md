@@ -81,8 +81,9 @@ cd 3005-vm-guide<br/>
 cp ./.* ..<br/>
 </pre>
 
-**If you are not using termite, you are done.**<br/>
-***If you are using termite: ***<br/>
+**If you are not using termite, you are done.**
+
+***If you are using termite:***
 
 <pre>
 cp termite.terminfo ..<br/>
