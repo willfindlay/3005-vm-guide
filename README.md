@@ -56,7 +56,7 @@ cd rlwrap
 Now we need to install some other packages before we are ready to get going.
 
 <pre>
-sudo yum install make autoconf automake
+sudo yum install make autoconf automake readline-devel
 </pre>
 
 **Let's build rlwrap!**
