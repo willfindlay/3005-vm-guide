@@ -59,10 +59,11 @@ Now we need to install some other packages before we are ready to get going.
 sudo yum install make autoconf automake
 </pre>
 
-**Let's build autoconf!**
+**Let's build rlwrap!**
 
 <pre>
 autoreconf --install<br/>
+./configure<br/>
 make<br/>
 make install
 </pre>
