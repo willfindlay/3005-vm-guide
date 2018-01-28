@@ -31,7 +31,9 @@ Now for the meat and potatoes. We're running ***Fedora Linux Server Edition***, 
 will be using the **yum** package manager here. Sounds delicious.
 
 To get started, we need to install git.<br/>
-<pre>sudo yum install git</pre> You will have to type your password here (oracle).
+<pre>sudo yum install git</pre>
+
+You will have to type your password here (oracle).
 
 Now that we have git installed, let's configure it. If you have read my COMP3000 guide,
 you'll know we need to do the following:
@@ -73,16 +75,20 @@ Now, just run sqlplus with rlwrap sqlplus and you will have your arrow keys.<br/
 
 My Dotfiles
 -----------
-
 Use my dotfiles! They are sick. Just do the following:
 
 <pre>
 cd ~<br/>
 git clone https://github.com/HousedHorse/3005-vm-guide<br/>
 cd 3005-vm-guide<br/>
-cp ./.\* ..<br/>
-**If you are not using termite, you are done.**<br/>
-***If you are using termite:***<br/>
+cp ./.* ..<br/>
+</pre>
+
+**If you are not using termite, you are done.**
+
+***If you are using termite:***
+
+<pre>
 cp termite.terminfo ..<br/>
 cd ~<br/>
 tic termite.terminfo
